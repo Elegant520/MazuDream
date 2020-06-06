@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "託夢：媽祖顯靈",
+    "slug": "MazuDream",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "taiwan.elegant.mazu",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCdBJELUahsuOZMLE8jctIVyZM4OSi7NxY"
+        }
+      }
+    },
+    "description": ""
+  }
+}
